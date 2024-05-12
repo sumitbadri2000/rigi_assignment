@@ -10,7 +10,6 @@ body {
 }
 nav {
   background-color: #ebeffd;
-
   height: 60px;
   width: 100%;
 }
@@ -173,7 +172,6 @@ a:hover {
   text-align: center;
   background-color: #ebeffd;
   line-height: 28px;
-
   font-size: 14px;
 }
 
@@ -366,7 +364,7 @@ a:hover {
   margin: auto;
   grid-template-columns: repeat(3, 1fr);
   width: 80%;
-  margin-top: 50px;
+  margin-top: 10px;
 }
 
 .consultant_grid1 {
@@ -680,7 +678,7 @@ a:hover {
   }
   #banner {
     flex-direction: column;
-    padding: 60px 30px;
+    padding: 40px 20px;
   }
   .banner_child1 {
     margin-left: 0;
@@ -707,7 +705,9 @@ a:hover {
   }
 
   /* abouy */
-
+  #about {
+    padding: 40px 20px;
+  }
   .about_img {
     width: 90%;
   }
@@ -727,6 +727,7 @@ a:hover {
 
   /* media */
   #media {
+    padding: 40px 20px;
     line-height: 30px;
     font-size: 16px;
   }
@@ -737,7 +738,13 @@ a:hover {
     width: 90%;
   }
   /* testimonal */
+
+  #Testimonials {
+    padding: 40px 20px;
+  }
   .test_grid {
+    width: 90%;
+
     grid-template-columns: repeat(1, 1fr);
   }
 
@@ -753,7 +760,9 @@ a:hover {
   }
 
   /* features */
-
+  #feature {
+    padding: 40px 20px;
+  }
   .feature_flex1 {
     display: flex;
     justify-content: space-around;
@@ -763,6 +772,11 @@ a:hover {
   }
 
   /* course */
+  #courses,
+  #consultant,
+  #services {
+    padding: 15px 20px;
+  }
   .course_flex,
   .consultant_flex,
   .services_flex {
@@ -784,6 +798,11 @@ a:hover {
   }
 
   /* constant */
+  .consultant_grid {
+    /* width: 80%; */
+    margin-top: 40px;
+  }
+
   .consultant_grid {
     grid-template-columns: repeat(1, 1fr);
   }
@@ -907,7 +926,7 @@ a:hover {
 
   #banner {
     flex-direction: column;
-    padding: 20px 15px;
+    padding: 40px 20px;
   }
   .banner_child1 {
     margin-left: 0;
@@ -936,6 +955,9 @@ a:hover {
 
   /* abouy */
 
+  #about {
+    padding: 40px 20px;
+  }
   .about_img {
     width: 90%;
   }
@@ -960,6 +982,7 @@ a:hover {
 
   /* media */
   #media {
+    padding: 40px 20px;
     line-height: 30px;
     font-size: 16px;
   }
@@ -971,11 +994,15 @@ a:hover {
   }
 
   /* <!-- Testimonials --> */
+  #Testimonials {
+    padding: 40px 20px;
+  }
   #Testimonials h1 {
     margin: 0px 5px;
     font-size: 26px;
   }
   .test_grid {
+    width: 90%;
     grid-template-columns: repeat(1, 1fr);
   }
 
@@ -994,7 +1021,9 @@ a:hover {
     margin: 10px 0px;
   }
   /* features */
-
+  #feature {
+    padding: 40px 20px;
+  }
   .feature_flex1 {
     display: flex;
     justify-content: space-evenly;
@@ -1004,6 +1033,11 @@ a:hover {
   }
 
   /* course */
+  #courses,
+  #consultant,
+  #services {
+    padding: 15px 20px;
+  }
   .course_flex,
   .consultant_flex,
   .services_flex {
@@ -1106,6 +1140,7 @@ a:hover {
 
   /* consultant */
   .consultant_grid {
+    /* width: 80%; */
     margin-top: 50px;
   }
 
